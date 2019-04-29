@@ -6,4 +6,4 @@ Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
 
 [Telegram Grupo](https://t.me/joinchat/Fkuw3BZnGs0qG9YoB5nf6w).
 
-[Kioptrix1](./writeup/kioptrix1.md)
+[Kioptrix1](./writeup/Kioptrix1.md)
