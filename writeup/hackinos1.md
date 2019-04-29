@@ -6,7 +6,10 @@ layout: default
 
 [Download:](https://www.vulnhub.com/entry/hackinos-1,295/)
 
-**Date release:** 17 Feb 2010
+
+**Name:** HackInOS: 1
+**Date release:** 9 Mar 2019
+
 
 __test__
 
