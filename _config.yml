@@ -1,1 +1,5 @@
+title: Projeto Vulnhub Mafia
+description: O projeto pretende trazer writeups em PT-BR para ajudar e influenciar pessoas que nao tem condicoes de pagar um curso e/ou nao conhecem a area de pentest ainda.
+show_downloads: true
+google_analytics:
 theme: jekyll-theme-hacker
