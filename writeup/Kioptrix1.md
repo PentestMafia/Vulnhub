@@ -6,4 +6,4 @@ layout: default
 
 __test__
 
-[back](../VulnHub)
+[back](../index.md)
