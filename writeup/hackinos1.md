@@ -168,6 +168,15 @@ A porta `1337` já encontra-se em listening conforme configuramos anteriormente,
 
 #### Spawn Shell
 
+Nossa shell está muito zoada, não podemos apagar que da error. Vamos ajustar e deixar nossa shell good.
 
+```
+python -c 'import pty;pty.spawn("/bin/bash")';
+Ctrl + Z
+stty -echo raw 
+fg
+```
+
+![spawn](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/hackinos1/spawn.png)
 
 [back](../index.md)
