@@ -158,6 +158,10 @@ wfuzz -c -w hashe.txt --hc 404 http://localhost:8000/uploads/FUZZ
 
 ![wfuzz](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/hackinos1/wfuzz.png)
 
+A porta `1337` já encontra-se em listening conforme configuramos anteriormente, em seguida acessamos nosso payload em uploads e obtemos uma reverse shell.
+
+![getshell](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/hackinos1/getshell.png)
+
 
 
 [back](../index.md)
