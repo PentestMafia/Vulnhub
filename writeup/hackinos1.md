@@ -223,7 +223,7 @@ Se você ler o manual `tail --help` pode obter mais informações de como usar:
 
 ![tail](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/hackinos1/tail.png)
 
-GG, temos o `hash` do root. Vamos usar o `john` e obter a senha. Salve a hash em um arquivo `.txt`.
+Temos o `hash` do root. Vamos usar o `john` e obter a senha. Salve a hash em um arquivo `.txt`.
 
 ```
 john --wordlist=/usr/share/wordlists/rockyou.txt root_hash.txt
@@ -233,6 +233,11 @@ john --wordlist=/usr/share/wordlists/rockyou.txt root_hash.txt
 
 Game Over:   senha `john`
 
+![flag1](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/hackinos1/root1.png)
+
+`Life consists of details..`
+
+Anteriormente eu tinha visto um outro IP, de acordo com minha experiencia trata-se de um docker. Mas agora não resta dúvidas depois da mensagem da flag. Vamos continuar com nossa exploração.
 
 
 [back](../index.md)
