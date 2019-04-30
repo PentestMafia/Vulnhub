@@ -318,5 +318,9 @@ show tables;
 
 ![showtables](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/hackinos1/showtables.png)
 
+```
+select * from host_ssh_cred ;
+```
+
 
 [back](../index.md)
