@@ -289,6 +289,12 @@ Existe uma probabilidade enorme de ter um banco de dados por conta daquelas cred
 
 [Common TCP/IP Ports ](https://pentestlab.blog/2012/03/05/common-tcpip-ports/)
 
+```
+nc -nv 172.18.0.4 3306
+nc -nv 172.18.0.3 3306
+```
+
+![opendb](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/hackinos1/opendb.png)
 
 
 
