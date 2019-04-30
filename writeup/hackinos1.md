@@ -269,8 +269,13 @@ Navegando ate o `/var/www/html/` encontramos as configurações do wordpress, um
 
 #### Discover IP
 
-Vamos escanear de uma forma mais manual a rede.
+Vamos escanear de uma forma mais manual a rede. _Se você não sabe, é proibido usar msfconsole na OSCP._
 
+```
+for ip in $(seq 1 20); do ping -c 1 172.18.0.$ip >> ips.txt ;done
+```
+
+![ips](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/hackinos1/ips.png)
 
 
 
