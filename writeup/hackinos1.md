@@ -31,6 +31,7 @@ layout: default
     - [Upload shell](#upload-shell)
 - [Previlege Escalation](#previlege-escalation)
     - [Spawn Shell](#spawn-shell)
+    - [Linux PrivEsc](#linux-privesc)
     
 
 ### Enumeration
@@ -178,5 +179,15 @@ fg
 ```
 
 ![spawn](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/hackinos1/spawn.png)
+
+#### Linux PrivEsc
+
+Particulamente eu sempre uso o `LinEnum`, para realizar privesc. Existem outros scripts e recomendo vocês pesquisarem. Um post legal para você iniciar é o _g0tmi1k_ [Basic Linux Privilege Escalation](https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/)
+
+[LinEnum download](https://github.com/rebootuser/LinEnum)
+
+
+
+
 
 [back](../index.md)
