@@ -36,5 +36,6 @@ Inicialmente vamos usar o `netdiscover` para encontrar o IP da nossa VM, porém 
 
 #### nmap
 
+ok
 
 [back](../index.md)
