@@ -13,7 +13,7 @@ layout: default
 
 **Description:**
 
-"O HackinOS é uma máquina vulnerável ao estilo CTF de nível iniciante. Criei essa VM para a comunidade de segurança cibernética da minha universidade e para todos os entusiastas da segurança cibernética. Agradeço a Mehmet Oguz Tozkoparan, Ömer Faruk Senyayla e Tufan Gungor por sua ajuda durante a criação deste laboratório." ~~Author: Fatih Çelik~~
+"O HackinOS é uma máquina vulnerável ao estilo CTF de nível iniciante. Criei essa VM para a comunidade de segurança cibernética da minha universidade e para todos os entusiastas da segurança cibernética. Agradeço a Mehmet Oguz Tozkoparan, Ömer Faruk Senyayla e Tufan Gungor por sua ajuda durante a criação deste laboratório." _Author: Fatih Çelik_
 
 **NOTA:** `localhost` está destinado a estar lá!
 
