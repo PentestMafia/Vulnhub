@@ -13,8 +13,8 @@ layout: default
 
 ### Table of Contents
 
-- 1. [Enumeration](#enumeration)
-    - 1. [nmap](#nmap)
+- [Enumeration](#enumeration)
+    - [nmap](#nmap)
 
 ### Enumeration
 
