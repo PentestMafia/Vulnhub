@@ -211,6 +211,27 @@ Execute o script: `/bin/bash LinEnum.sh`
 
 ![execute](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/hackinos1/execute.png)
 
+Olhando o output do script, achamos algo útil que vai ajudar com nosso privilege escalation. O `tail` tem `SUID`, ou seja podemos executar como root e ler o shadow por exemplo.
+
+![suid](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/hackinos1/suid.png)
+
+Veja, com o user `www-data` não temos permissão. Porém o `tail` tem permissão de root com o SUID e ele pode ler o shadow.
+
+![shad](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/hackinos1/shad.png)
+
+Se você ler o manual `tail --help` pode obter mais informações de como usar:
+
+![tail](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/hackinos1/tail.png)
+
+GG, temos o `hash` do root. Vamos usar o `john` e obter a senha. Salve a hash em um arquivo `.txt`.
+
+```
+john --wordlist=/usr/share/wordlists/rockyou.txt root_hash.txt
+```
+
+![john](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/hackinos1/john.png)
+
+Game Over:   senha `john`
 
 
 
