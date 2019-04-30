@@ -126,7 +126,17 @@ Olhando o source do upload.php, encontramos uma dica que sugere ir até o github
 
 [Vulnerable-Machine---Hint](https://github.com/fatihhcelik/Vulnerable-Machine---Hint)
 
+O código do upload.php podemos ver, que o arquivo é renomeado para <nomedoarquivo>.php.<numero entre 1-100>
 
+![code](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/hackinos1/md5.png)
+
+Usando bash podemos fazer isso facilmente, com o seguinte comando:
+
+```
+for number in $(seq 1 100); do echo -n "shell.php$number" |md5sum |sed 's/  -/.php/g' >> hashe.txt ;done          
+```
+
+![hashmd5](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/hackinos1/hashmd5.png)
 
 
 [back](../index.md)
