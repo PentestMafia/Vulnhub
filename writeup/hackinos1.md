@@ -126,7 +126,7 @@ Olhando o source do upload.php, encontramos uma dica que sugere ir até o github
 
 [Vulnerable-Machine---Hint](https://github.com/fatihhcelik/Vulnerable-Machine---Hint)
 
-O código do upload.php podemos ver, que o arquivo é renomeado para <nomedoarquivo>.php.<numero entre 1-100>
+O código do upload.php podemos ver, que o arquivo é renomeado para `[nomedoarquivo].php.[numero entre 1-100]`
 
 ![code](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/hackinos1/md5.png)
 
@@ -137,6 +137,15 @@ for number in $(seq 1 100); do echo -n "shell.php$number" |md5sum |sed 's/  -/.p
 ```
 
 ![hashmd5](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/hackinos1/hashmd5.png)
+
+Usamos como nome de arquivo `shell.php`, vamos renomear nosso payload para shell.php, adicionando o `GIF89a;` no inicio do arquivo para fazermos o bypass.
+
+![mvphp](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/hackinos1/mvphp.png)
+
+Agora, realizamos o upload novamente.
+
+![shellupload](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/hackinos1/shellupload.png)
+
 
 
 [back](../index.md)
