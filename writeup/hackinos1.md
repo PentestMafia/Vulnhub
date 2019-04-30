@@ -27,8 +27,9 @@ layout: default
     - [robots.txt](#robots.txt)
 - [Exploitation](#exploitation)
     - [Locate php-reverse-shell.php](#Locate-php-reverse-shell.php)
-    - [Upload shell.php](#Upload-shell.php)
     - [Listening port](#Listening-port)
+    - [Upload shell.php](#Upload-shell.php)
+    
 
 ### Enumeration
 
@@ -109,6 +110,13 @@ Edite de acordo com suas configurações.
 
 ![edite](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/hackinos1/edite.png)
 
+#### Listening port
+
+```
+nc -lvp 1337
+```
+
+![listen](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/hackinos1/listen.png)
 
 #### Upload shell.php
 
