@@ -296,6 +296,14 @@ nc -nv 172.18.0.3 3306
 
 ![opendb](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/hackinos1/opendb.png)
 
+Vamos tentar fazer login com as creds encontradas no `wp-config.php`. 
+
+```
+mysql -u wordpress -p wordpress -h 172.18.0.3
+```
+
+![db1](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/hackinos1/wordpres_access.png)
+
 
 
 
