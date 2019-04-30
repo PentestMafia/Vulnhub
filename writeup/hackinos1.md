@@ -35,6 +35,8 @@ layout: default
     - [File Transfer](#file-transfer)
 - [Post Exploitation](#post-exploitation)
     - [Static Binaries](#static-binaries)
+    - [File Sensitive](#file-sensitive)
+    - [Discover IP](#discover-ip)
     
 
 ### Enumeration
@@ -259,8 +261,17 @@ Tentei usar o nmap static para poder scanear a rede, mas não consegui executar 
 
 ![error](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/hackinos1/error.png)
 
-Navegando ate o `/var/www/html/` encontramos as configurações do wordpress, um arquivo importante é o `wp-config.php`
+#### File Sensitive
+
+Navegando ate o `/var/www/html/` encontramos as configurações do wordpress, um arquivo importante é o `wp-config.php`. Creds `wordpress:wordpress`.
 
 ![wordpress_cred](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/hackinos1/wordpress_cred.png)
+
+#### Discover IP
+
+Vamos escanear de uma forma mais manual a rede.
+
+
+
 
 [back](../index.md)
