@@ -23,6 +23,10 @@ layout: default
     - [netdiscover](#netdiscover)
     - [nmap](#nmap)
         - [Web Server](#web-server)
+- [Find Vulnerabilities](#find-vulnerabilities)
+    - [robots.txt](#robots.txt)
+- [Exploitation]
+    - [Upload shell.php](#Upload-shell.php)
 
 ### Enumeration
 
@@ -66,6 +70,26 @@ Todos os links estavam redirecionando para `localhost`, então editamos nosso ho
 Depois de realizar os ajustes, o site abre perfeitamente:
 
 ![site](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/hackinos1/site.png)
+
+### Find Vulnerabilities
+
+#### robots.txt
+
+Enumerando um pouco mais, encontramos o `robots.txt`. Com um file e um dir setados como `Disallow`, vamos navegar ate eles.
+
+![robots](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/hackinos1/robots.png)
+
+Temos um ótimo lugar para fazer o upload de nosso `payload`.
+
+![upload](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/hackinos1/upload.png)
+
+Depois que for feito o upload, podemos localizá lo no dir `/uploads/`.
+
+![uploads](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/hackinos1/uploads.png)
+
+### Exploitation
+
+#### Upload shell.php
 
 
 
