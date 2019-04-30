@@ -25,9 +25,10 @@ layout: default
         - [Web Server](#web-server)
 - [Find Vulnerabilities](#find-vulnerabilities)
     - [robots.txt](#robots.txt)
-- [Exploitation]
+- [Exploitation](#exploitation)
     - [Locate php-reverse-shell.php](#Locate-php-reverse-shell.php)
     - [Upload shell.php](#Upload-shell.php)
+    - [Listening port](#Listening-port)
 
 ### Enumeration
 
@@ -103,6 +104,11 @@ locate php-reverse-shell
 Copie para um diretório de sua escolha:
 
 ![copy](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/hackinos1/copy.png)
+
+Edite de acordo com suas configurações.
+
+![edite](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/hackinos1/edite.png)
+
 
 #### Upload shell.php
 
