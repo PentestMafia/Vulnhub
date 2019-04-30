@@ -42,7 +42,7 @@ Como de costume utilizamos o `nmap` em nossa enumeração inicial.
 ```
 nmap -sV -sC -oA nmap/initial 192.168.111.136
 ```
-
+![nmapinitial](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/hackinos1/nmapinit.png)
 
 
 [back](../index.md)
