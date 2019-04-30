@@ -32,6 +32,7 @@ layout: default
 - [Previlege Escalation](#previlege-escalation)
     - [Spawn Shell](#spawn-shell)
     - [Linux PrivEsc](#linux-privesc)
+    - [File Transfer](#file-transfer)
     
 
 ### Enumeration
@@ -186,7 +187,7 @@ Particulamente eu sempre uso o `LinEnum`, para realizar privesc. Existem outros 
 
 [LinEnum download](https://github.com/rebootuser/LinEnum)
 
-
+#### File Transfer
 
 
 
