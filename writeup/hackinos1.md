@@ -37,6 +37,7 @@ layout: default
     - [Static Binaries](#static-binaries)
     - [File Sensitive](#file-sensitive)
     - [Discover IP](#discover-ip)
+    - [Crack Hash](#crack-hash)
     
 
 ### Enumeration
@@ -322,5 +323,18 @@ show tables;
 select * from host_ssh_cred ;
 ```
 
+![hah](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/hackinos1/ccd.png)
 
+
+#### Crack Hash
+
+Agora com a hash `MD5` obtida, vamos crackeaR  e obter a senha.
+
+```
+john --format=RAW-md5 hash_.txt
+```
+
+![hashio](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/hackinos1/hashi.png)
 [back](../index.md)
+
+**SENHA:** `123456`
