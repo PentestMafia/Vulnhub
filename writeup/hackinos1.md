@@ -50,6 +50,6 @@ Podemos observar 2 portas abertas `8000` e `22`, precisamos escanear todas as po
 nmap -sV -sT -p1-49152 -oA nmap/allports_tcp 192.168.111.136
 ```
 
-
+![allports_tcp](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/hackinos1/allports_tcp.png)
 
 [back](../index.md)
