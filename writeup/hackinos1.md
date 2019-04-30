@@ -304,7 +304,19 @@ mysql -u wordpress -p wordpress -h 172.18.0.3
 
 ![db1](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/hackinos1/wordpres_access.png)
 
+Conseguimos conectar no mysql, vamos enumerar melhor e ver o que encontramos.
 
+```
+show databases;
+```
+
+![showdb](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/hackinos1/showdb.png)
+
+```
+show tables;
+```
+
+![showtables](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/hackinos1/showtables.png)
 
 
 [back](../index.md)
