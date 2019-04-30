@@ -120,6 +120,13 @@ nc -lvp 1337
 
 #### Upload shell.php
 
+Olhando o source do upload.php, encontramos uma dica que sugere ir até o github através do link passado.
+
+![git](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/hackinos1/git.png)
+
+[Vulnerable-Machine---Hint](https://github.com/fatihhcelik/Vulnerable-Machine---Hint)
+
+
 
 
 [back](../index.md)
