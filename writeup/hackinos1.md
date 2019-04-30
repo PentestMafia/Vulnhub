@@ -255,4 +255,12 @@ Realizamos a transferência do nmap
 
 ![nmaps](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/hackinos1/nmaps.png)
 
+Tentei usar o nmap static para poder scanear a rede, mas não consegui executar o binário. Vamos tentar de outra forma. 
+
+![error](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/hackinos1/error.png)
+
+Navegando ate o `/var/www/html/` encontramos as configurações do wordpress, um arquivo importante é o `wp-config.php`
+
+![wordpress_cred](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/hackinos1/wordpress_cred.png)
+
 [back](../index.md)
