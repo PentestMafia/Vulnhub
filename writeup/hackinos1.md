@@ -277,6 +277,12 @@ for ip in $(seq 1 20); do ping -c 1 172.18.0.$ip >> ips.txt ;done
 
 ![ips](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/hackinos1/ips.png)
 
+```
+grep "time=" ips.txt
+```
+
+![greip](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/hackinos1/greip.png)
+
 
 
 [back](../index.md)
