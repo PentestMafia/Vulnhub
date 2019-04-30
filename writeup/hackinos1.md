@@ -28,7 +28,7 @@ layout: default
 - [Exploitation](#exploitation)
     - [Locate php-reverse-shell.php](#locate-php-reverse-shell.php)
     - [Listening port](#listening-port)
-    - [Upload shell.php](#ppload-shell.php)
+    - [Upload shell.php](#upload-shell.php)
     
 
 ### Enumeration
