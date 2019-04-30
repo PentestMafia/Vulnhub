@@ -283,6 +283,14 @@ grep "time=" ips.txt
 
 ![greip](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/hackinos1/greip.png)
 
+Como podemos ver existe 4 ips ativos, o `172.18.0.2` é o nosso,  `172.18.0.1` provavelmente seja GW, então resta `172.18.0.3` e `172.18.0.4`. Vamos agora buscar as portas abertas nesses ips. 
+
+Existe uma probabilidade enorme de ter um banco de dados por conta daquelas creds que encontramos no wordpress, no qual mostra que o serviço se conecta com um banco de dados. Então, vamos testar logo portas comuns. De cara vou tentar portas como `3306`, `1433` na qual são portas de `DataBase`. 
+
+[Common TCP/IP Ports ](https://pentestlab.blog/2012/03/05/common-tcpip-ports/)
+
+
+
 
 
 [back](../index.md)
