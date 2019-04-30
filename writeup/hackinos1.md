@@ -24,7 +24,7 @@ layout: default
     - [nmap](#nmap)
         - [Web Server](#web-server)
 - [Find Vulnerabilities](#find-vulnerabilities)
-    - [robots.txt](#robots.txt)
+    - [robots](#robots)
 - [Exploitation](#exploitation)
     - [Locate php-reverse-shell](#locate-php-reverse-shell)
     - [Listening port](#listening-port)
@@ -86,7 +86,7 @@ Depois de realizar os ajustes, o site abre perfeitamente:
 
 ### Find Vulnerabilities
 
-#### robots.txt
+#### robots
 
 Enumerando um pouco mais, encontramos o `robots.txt`. Com um file e um dir setados como `Disallow`, vamos navegar ate eles.
 
