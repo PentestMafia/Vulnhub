@@ -26,6 +26,7 @@ layout: default
 - [Find Vulnerabilities](#find-vulnerabilities)
     - [robots.txt](#robots.txt)
 - [Exploitation]
+    - [Locate php-reverse-shell.php](#Locate-php-reverse-shell.php)
     - [Upload shell.php](#Upload-shell.php)
 
 ### Enumeration
@@ -88,6 +89,20 @@ Depois que for feito o upload, podemos localizá lo no dir `/uploads/`.
 ![uploads](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/hackinos1/uploads.png)
 
 ### Exploitation
+
+#### Locate php-reverse-shell.php
+
+Agora vamos localizar um `shell.php` para facilitar nosso trabalho, poderíamos gerar com o `msfvenom`. Mas automatizar as coisas e ganhar tempo é melhor ainda.
+
+```
+locate php-reverse-shell
+```
+
+![locate](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/hackinos1/locate.png)
+
+Copie para um diretório de sua escolha:
+
+![copy](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/hackinos1/copy.png)
 
 #### Upload shell.php
 
