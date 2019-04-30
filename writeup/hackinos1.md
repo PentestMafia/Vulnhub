@@ -13,8 +13,12 @@ layout: default
 
 ### Table of Contents
 
-- Enumeration
-    - nmap
+- 1. [Enumeration](#enumeration)
+    - 1. [nmap](#nmap)
+
+### Enumeration
+
+#### nmap
 
 
 [back](../index.md)
