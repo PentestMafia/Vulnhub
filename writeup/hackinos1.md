@@ -146,6 +146,18 @@ Agora, realizamos o upload novamente.
 
 ![shellupload](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/hackinos1/shellupload.png)
 
+Arquivo enviado:
+
+![enviado](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/hackinos1/enviado.png)
+
+Usando o `WFUZZ` vamos fazer um brute e encontrar nosso arquivo em `/uploads/`.
+
+```
+wfuzz -c -w hashe.txt --hc 404 http://localhost:8000/uploads/FUZZ
+```
+
+![wfuzz](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/hackinos1/wfuzz.png)
+
 
 
 [back](../index.md)
