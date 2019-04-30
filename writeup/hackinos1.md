@@ -36,7 +36,7 @@ layout: default
 - [Post Exploitation](#post-exploitation)
     - [Static Binaries](#static-binaries)
     - [File Sensitive](#file-sensitive)
-    - [Discover IP](#discover-ip)
+    - [Discover IP manually](#discover-ip-manually)
     - [Crack Hash](#crack-hash)
     - [Docker PrivEsc](#docker-privEsc)
     
@@ -269,7 +269,7 @@ Navegando ate o `/var/www/html/` encontramos as configurações do wordpress, um
 
 ![wordpress_cred](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/hackinos1/wordpress_cred.png)
 
-#### Discover IP
+#### Discover IP manually
 
 Vamos escanear de uma forma mais manual a rede. _Se você não sabe, é proibido usar msfconsole na OSCP._
 
