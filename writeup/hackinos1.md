@@ -44,5 +44,12 @@ nmap -sV -sC -oA nmap/initial 192.168.111.136
 ```
 ![nmapinitial](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/hackinos1/nmapinit.png)
 
+Podemos observar 2 portas abertas `8000` e `22`, precisamos escanear todas as portas e verificar se existe um outro serviço em uma porta mais alta.
+
+```
+nmap -sV -sT -p1-49152 -oA nmap/allports_tcp 192.168.111.136
+```
+
+
 
 [back](../index.md)
