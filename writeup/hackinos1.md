@@ -251,6 +251,8 @@ Vamos utilizar o binário estático do nmap para enumerar a rede `172.18.0.0`.
 
 [static-binaries](https://github.com/andrew-d/static-binaries)
 
+Realizamos a transferência do nmap
 
+![nmaps](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/hackinos1/nmaps.png)
 
 [back](../index.md)
