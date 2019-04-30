@@ -1,1 +1,1 @@
-# Projeto Vulnhub Mafia
+# Vulnhub Mafia
