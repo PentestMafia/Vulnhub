@@ -20,9 +20,19 @@ layout: default
 ### Table of Contents
 
 - [Enumeration](#enumeration)
+    - [netdiscover](#netdiscover)
     - [nmap](#nmap)
 
 ### Enumeration
+
+#### netdiscover
+
+```
+netdiscover -i eth0 -r 192.168.111.1/24
+```
+Inicialmente vamos usar o `netdiscover` para encontrar o IP da nossa VM, porém essa máquina é possível visualizar o IP facilmente através da VM, mas geralmente isso não é  possível. Então, recomendo usar o netdiscover para se acostumar.
+
+![netdiscover](/assets/images/hackinos1/netdiscover.png)
 
 #### nmap
 
