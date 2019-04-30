@@ -339,4 +339,12 @@ john --format=RAW-md5 hash_.txt
 
 **SENHA:** `123456`
 
-Temos agora uma nova credencial ssh `hummingbirdscyber:123456`
+Temos agora uma nova credencial ssh `hummingbirdscyber:123456`, vamos fazer login:
+
+```
+ssh hummingbirdscyber@192.168.111.136
+password: 123456
+```
+
+![login](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/hackinos1/ssh.png)
+
