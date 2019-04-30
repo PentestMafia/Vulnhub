@@ -29,6 +29,8 @@ layout: default
     - [Locate php-reverse-shell](#locate-php-reverse-shell)
     - [Listening port](#listening-port)
     - [Upload shell](#upload-shell)
+- [Previlege Escalation](#previlege-escalation)
+    - [Spawn Shell](#spawn-shell)
     
 
 ### Enumeration
@@ -161,6 +163,10 @@ wfuzz -c -w hashe.txt --hc 404 http://localhost:8000/uploads/FUZZ
 A porta `1337` já encontra-se em listening conforme configuramos anteriormente, em seguida acessamos nosso payload em uploads e obtemos uma reverse shell.
 
 ![getshell](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/hackinos1/getshell.png)
+
+### Previlege Escalation
+
+#### Spawn Shell
 
 
 
