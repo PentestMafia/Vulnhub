@@ -22,6 +22,7 @@ layout: default
 - [Enumeration](#enumeration)
     - [netdiscover](#netdiscover)
     - [nmap](#nmap)
+        - [Web Server](#web-server)
 
 ### Enumeration
 
@@ -51,5 +52,19 @@ nmap -sV -sT -p1-49152 -oA nmap/allports_tcp 192.168.111.136
 ```
 
 ![allports_tcp](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/hackinos1/allports_tcp.png)
+
+##### Web Server
+
+Possivelmente é um `Wordpress`. O site esta quebrado, vamos ajustar isso...
+
+![wordpress](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/hackinos1/wordpress.png)
+
+Todos os links estavam redirecionando para `localhost`, então editamos nosso hosts `/etc/hosts` e adicionamos o IP da VM  para o localhost: Observe que comentei o padrão do kali.
+
+![localhost1](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/hackinos1/localhost.png)
+
+
+
+
 
 [back](../index.md)
