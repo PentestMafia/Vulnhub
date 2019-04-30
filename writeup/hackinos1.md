@@ -33,6 +33,8 @@ layout: default
     - [Spawn Shell](#spawn-shell)
     - [Linux PrivEsc](#linux-privesc)
     - [File Transfer](#file-transfer)
+- [Post Exploitation](#post-exploitation)
+    - [Static Binaries](#static-binaries)
     
 
 ### Enumeration
@@ -238,6 +240,17 @@ Game Over:   senha `john`
 `Life consists of details..`
 
 Anteriormente eu tinha visto um outro IP, de acordo com minha experiencia trata-se de um docker. Mas agora não resta dúvidas depois da mensagem da flag. Vamos continuar com nossa exploração.
+
+### Post Exploitation
+
+#### Static Binaries
+
+Vamos utilizar o binário estático do nmap para enumerar a rede `172.18.0.0`.
+
+![network](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/hackinos1/network.png)
+
+[static-binaries](https://github.com/andrew-d/static-binaries)
+
 
 
 [back](../index.md)
