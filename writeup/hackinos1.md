@@ -26,9 +26,9 @@ layout: default
 - [Find Vulnerabilities](#find-vulnerabilities)
     - [robots.txt](#robots.txt)
 - [Exploitation](#exploitation)
-    - [Locate php-reverse-shell.php](#locate-php-reverse-shell.php)
+    - [Locate php-reverse-shell.php](#locate-php-reverse-shell)
     - [Listening port](#listening-port)
-    - [Upload shell.php](#upload-shell.php)
+    - [Upload shell.php](#upload-shell)
     
 
 ### Enumeration
