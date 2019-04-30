@@ -63,7 +63,9 @@ Todos os links estavam redirecionando para `localhost`, então editamos nosso ho
 
 ![localhost1](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/hackinos1/localhost.png)
 
+Depois de realizar os ajustes, o site abre perfeitamente:
 
+![site](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/hackinos1/site.png)
 
 
 
