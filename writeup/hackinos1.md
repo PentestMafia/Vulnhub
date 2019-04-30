@@ -377,4 +377,4 @@ cat flag
 ![Congratulations](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/hackinos1/anakein_root.png)
 
 
-[hackback](./)
+[hackback](./writeup/)
