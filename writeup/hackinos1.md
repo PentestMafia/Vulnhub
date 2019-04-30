@@ -338,3 +338,5 @@ john --format=RAW-md5 hash_.txt
 [back](../index.md)
 
 **SENHA:** `123456`
+
+Temos agora uma nova credencial ssh `hummingbirdscyber:123456`
