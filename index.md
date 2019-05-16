@@ -10,3 +10,7 @@ layout: default
 ## Machines:
 
 [HackInOS: 1](./writeup/hackinos1.md)
+
+## Projeto C2
+
+[O projeto C2 visa desenvolver uma coleção de links uteis.](https://github.com/PentestMafia/C2)
