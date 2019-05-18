@@ -190,3 +190,13 @@ Adicione permissão para executar.
 Agora execute o `./LinEnum`
 
 ![linenum](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/fristileaks-1-3/2019-05-18_13-05.png)
+
+Possíveis vetores de ataques.
+
+`Sudo version 1.8.6p3`
+
+![sudo](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/fristileaks-1-3/2019-05-18_13-17.png)
+
+`kernel - Linux version 2.6.32-573.8.1.el6.x86_64`
+
+![kernel](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/fristileaks-1-3/2019-05-18_13-20.png)
