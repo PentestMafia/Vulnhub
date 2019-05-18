@@ -80,3 +80,9 @@ Algo interessante depois de nossa wordlist personalizada, navegando ate o `frist
 Olhando o source da página podemos ver um comentário, de acordo com minha experiencia me parece um base64. Vamos decodar isso e ver o que encontramos.
 
 ![source1](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/fristileaks-1-3/2019-05-18_10-53.png)
+
+Então pegamos o comentário do source, e inserimos em um arquivo. No meu caso criei um file com o seguinte nome `source.b64` e em seguida realizei o decoder.
+
+`cat source.b64 |base64 -d`
+
+![decoder1](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/fristileaks-1-3/2019-05-18_10-58.png)
