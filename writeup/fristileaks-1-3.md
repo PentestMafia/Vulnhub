@@ -72,3 +72,7 @@ Inicialmente eu tentei diversas wordlists e não encontrava nada, voltei ao temp
 `python3 /opt/dirsearch/dirsearch.py -u http://10.0.1.110/ -w customwordlist.txt -e php -x 403`
 
 ![dirsearch1](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/fristileaks-1-3/2019-05-18_10-39.png)
+
+Algo interessante depois de nossa wordlist personalizada, navegando ate o `fristi` encontramos uma página de login, lol. Evoluímos!!!
+
+![login1](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/fristileaks-1-3/2019-05-18_10-46.png)
