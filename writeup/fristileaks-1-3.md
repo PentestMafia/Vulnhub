@@ -76,3 +76,7 @@ Inicialmente eu tentei diversas wordlists e não encontrava nada, voltei ao temp
 Algo interessante depois de nossa wordlist personalizada, navegando ate o `fristi` encontramos uma página de login, lol. Evoluímos!!!
 
 ![login1](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/fristileaks-1-3/2019-05-18_10-46.png)
+
+Olhando o source da página podemos ver um comentário, de acordo com minha experiencia me parece um base64. Vamos decodar isso e ver o que encontramos.
+
+![source1](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/fristileaks-1-3/2019-05-18_10-53.png)
