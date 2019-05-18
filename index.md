@@ -11,6 +11,8 @@ layout: default
 
 [HackInOS: 1](./writeup/hackinos1.md)
 
+[FristiLeaks: 1.3](./writeup/fristileaks-1-3.md)
+
 ## Projeto C2
 
 [O projeto C2 visa desenvolver uma coleção de links uteis.](https://github.com/PentestMafia/C2)
