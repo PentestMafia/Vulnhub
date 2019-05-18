@@ -158,3 +158,5 @@ bash-4.1$ ^Z
 `$ fg`
 
 ![stty](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/fristileaks-1-3/2019-05-18_12-37.png)
+
+Com uma shell interativa completa fica bem mais fácil de trabalhar, você pode usar o `TAB`, pode usar o `Ctrl + C` e você não perde sua shell.
