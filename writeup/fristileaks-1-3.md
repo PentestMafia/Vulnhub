@@ -33,6 +33,7 @@ Uma pequena VM foi feita para um encontro de hackers informais holandeses chamad
     - [Bypass](#bypass)
     - [Reverse Shell](#reverse-shell)
 - [Post Exploitation](#post-exploitation)
+    - [Spawn Shell](#spawn-shell)
 
 ## Information Gathering
 
@@ -120,13 +121,13 @@ Agora temos uma página para realizar uploads. Precisamos fazer bypass e assim p
 
 ![upload](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/fristileaks-1-3/2019-05-18_11-24.png)
 
-#### Bypass
+### Bypass
 
 Como falei anteriormente precisamos encontrar uma maneira de fazer o bypass. Sera utilizado o `php-reverse-shell` default do kali, edite conforme suas configurações adicionando IP e PORT de sua escolha. Em seguida mova para `.php.png`
 
 `mv php-reverse-shell.php5 shellv.php.png`
 
-#### Reverse Shell
+### Reverse Shell
 
 Depois de realizado as configurações necessárias, você deve colocar a porta escolhida em modo `listen` e fazer o upload do arquivo modificado. Assim que realizar isso, acesse o arquivo enviado no dir `/fristi/uploads/seuarquivo.php.png` feito isso você terá uma `shell`.
 
@@ -137,3 +138,10 @@ Acesse o arquivo e obtenha uma `revshell`.
 ![shell](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/fristileaks-1-3/2019-05-18_12-26.png)
 
 ## Post Exploitation
+
+### Spawn Shell
+
+`/usr/bin/python -c 'import pty;pty.spawn("/bin/bash");'`
+
+![spawn](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/fristileaks-1-3/2019-05-18_12-35.png)
+
