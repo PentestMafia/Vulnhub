@@ -37,6 +37,7 @@ Uma pequena VM foi feita para um encontro de hackers informais holandeses chamad
     - [Upgrading to a fully interactive reverse shell](#upgrading-to-a-fully-interactive-reverse-shell)
     - [File Transfer](#file-transfer)
     - [LinEnum](#linenum)
+    - [Automated Checks](#automated-checks)
 
 ## Information Gathering
 
@@ -205,6 +206,8 @@ Existe outros usuários, vamos verificar mais de perto.
 
 ![users](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/fristileaks-1-3/2019-05-18_13-22.png)
 
+### Automated Checks
+
 Dentro do `/home/eezeepz` encontramos umas anotações.
 
 ![notes](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/fristileaks-1-3/2019-05-18_13-14.png)
@@ -238,3 +241,9 @@ Veja, depois de alguns minutos as permissões foram alteradas, permitindo qualqu
 Depois de acessar o admin encontramos um arquivo criptografado, precisamos decodar.
 
 ![encode](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/fristileaks-1-3/2019-05-18_16-13.png)
+
+Depois de programar o decode, podemos decodar o texto e ter acesso a uma senha.
+
+![decode](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/fristileaks-1-3/2019-05-18_16-17.png)
+
+!
