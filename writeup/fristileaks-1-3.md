@@ -59,7 +59,7 @@ Depois de obter nosso alvo, podemos usar o `nmap` e iniciar a enumeração e ass
 
 `nmap -sV -sC -oA nmap/initial 10.0.1.110`
 
-![nmap1](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/fristileaks-1-3/2019-05-18_09-35.png)
+![nmap1](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/fristileaks-1-3/2019-05-18_17-46.png)
 
 Como podemos observar a porta `80` esta aberta e possui o serviço `http`, com  servidor web server apache na versão `Apache httpd 2.2.15`, e uma distribuição `CentOS`, possui também o robots.txt com 3 entradas não permitidas. Vamos analisar melhor isso.
 
