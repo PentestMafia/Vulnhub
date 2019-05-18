@@ -208,3 +208,21 @@ Existe outros usuários, vamos verificar mais de perto.
 Dentro do `/home/eezeepz` encontramos umas anotações.
 
 ![notes](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/fristileaks-1-3/2019-05-18_13-14.png)
+
+```
+bash-4.1 $ cat notes.txt
+Yo EZ,
+
+Eu fiz o possível para você fazer algumas verificações automatizadas,
+Mas eu permiti apenas o acesso aos binários do sistema /usr/bin/*. Eu fiz
+no entanto copiar alguns comandos extras freqüentemente necessários para o meu
+homedir: chmod, df, gato, eco, ps, grep, egrep para que você possa usá-los de /home/admin/
+
+Não esqueça de especificar o caminho completo para cada binário!
+
+Basta colocar um arquivo chamado "runthis" em /tmp/, cada linha um comando. 
+A saída vai para o arquivo "cronresult" em / tmp /. 
+Deveria executar cada minuto com privilégios de minha conta.
+
+- Jerry
+```
