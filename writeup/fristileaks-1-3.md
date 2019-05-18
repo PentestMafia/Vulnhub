@@ -107,5 +107,7 @@ Bingoo! Realizado o login na página!
 
 ![bingo](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/fristileaks-1-3/2019-05-18_11-21_1.png)
 
+Agora temos uma página para realizar uploads. Precisamos fazer bypass e assim poder obter uma reverse shell.
 
+![upload](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/fristileaks-1-3/2019-05-18_11-24.png)
 
