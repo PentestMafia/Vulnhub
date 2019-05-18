@@ -32,6 +32,7 @@ Uma pequena VM foi feita para um encontro de hackers informais holandeses chamad
     - [Base64](#base64)
     - [Bypass](#bypass)
     - [Reverse Shell](#reverse-shell)
+- [Post Exploitation](#post-exploitation)
 
 ## Information Gathering
 
@@ -134,3 +135,5 @@ Depois de realizado as configurações necessárias, você deve colocar a porta 
 Acesse o arquivo e obtenha uma `revshell`.
 
 ![shell](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/fristileaks-1-3/2019-05-18_12-26.png)
+
+## Post Exploitation
