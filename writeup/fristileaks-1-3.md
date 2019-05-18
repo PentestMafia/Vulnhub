@@ -37,8 +37,8 @@ Uma pequena VM foi feita para um encontro de hackers informais holandeses chamad
     - [Upgrading to a fully interactive reverse shell](#upgrading-to-a-fully-interactive-reverse-shell)
     - [File Transfer](#file-transfer)
     - [LinEnum](#linenum)
-    - [Automated Checks - User admin](#automated-checks-user-admin)
-    - [Decoder - User fristigod](#decoder-user-fristigod)
+    - [Automated Checks - User admin](#automated-checks---user-admin)
+    - [Decoder - User fristigod](#decoder---user-fristigod)
 
 ## Information Gathering
 
