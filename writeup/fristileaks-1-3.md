@@ -153,7 +153,7 @@ Ctrl + Z
 bash-4.1$ ^Z     
 [1]+  Stopped                 nc -lvp 6464
 ```
-`stty -echo raw`
+`$ stty -echo raw`
 
 `$ fg`
 
