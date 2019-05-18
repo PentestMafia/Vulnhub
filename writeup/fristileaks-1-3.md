@@ -93,5 +93,7 @@ Observe no início do arquivo que tem escrito `PNG`. Bom, vamos decodar novament
 
 ![pass1](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/fristileaks-1-3/2019-05-18_11-09.png)
 
-Agora temos uma possível senha, vamos ver como podemos usar.
+Agora temos uma possível senha, vamos ver como podemos usar. De imediato tentei usar com o user admin, mas não obtive êxito. Voltando no source novamente encontrei um possível usuário.
+
+eezeepz:keKkeKKeKKeKkEkkEk
 
