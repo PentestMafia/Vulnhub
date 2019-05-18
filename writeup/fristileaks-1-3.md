@@ -28,6 +28,10 @@ Uma pequena VM foi feita para um encontro de hackers informais holandeses chamad
     - [Web Crawlers & Directory Bruteforce](#web-crawlers-&-directory-bruteforce)
         - [CeWL](#cewl)
         - [Dirsearch](#dirsearch)
+- [Exploitation Tools](#exploitation-tools)
+    - [Base64](#base64)
+    - [Bypass](#bypass)
+    - [Reverse Shell](#reverse-shell)
 
 ## Information Gathering
 
@@ -77,6 +81,10 @@ Algo interessante depois de nossa wordlist personalizada, navegando ate o `frist
 
 ![login1](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/fristileaks-1-3/2019-05-18_10-46.png)
 
+## Exploitation Tools
+
+### Base64
+
 Olhando o source da página podemos ver um comentário, de acordo com minha experiencia me parece um base64. Vamos decodar isso e ver o que encontramos.
 
 ![source1](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/fristileaks-1-3/2019-05-18_10-53.png)
@@ -111,3 +119,18 @@ Agora temos uma página para realizar uploads. Precisamos fazer bypass e assim p
 
 ![upload](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/fristileaks-1-3/2019-05-18_11-24.png)
 
+#### Bypass
+
+Como falei anteriormente precisamos encontrar uma maneira de fazer o bypass. Sera utilizado o `php-reverse-shell` default do kali, edite conforme suas configurações adicionando IP e PORT de sua escolha. Em seguida mova para `.php.png`
+
+`mv php-reverse-shell.php5 shellv.php.png`
+
+#### Reverse Shell
+
+Depois de realizado as configurações necessárias, você deve colocar a porta escolhida em modo `listen` e fazer o upload do arquivo modificado. Assim que realizar isso, acesse o arquivo enviado no dir `/fristi/uploads/seuarquivo.php.png` feito isso você terá uma `shell`.
+
+![upp](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/fristileaks-1-3/2019-05-18_12-24.png)
+
+Acesse o arquivo e obtenha uma `revshell`.
+
+![shell](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/fristileaks-1-3/2019-05-18_12-26.png)
