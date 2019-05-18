@@ -37,7 +37,8 @@ Uma pequena VM foi feita para um encontro de hackers informais holandeses chamad
     - [Upgrading to a fully interactive reverse shell](#upgrading-to-a-fully-interactive-reverse-shell)
     - [File Transfer](#file-transfer)
     - [LinEnum](#linenum)
-    - [Automated Checks](#automated-checks)
+    - [Automated Checks - User admin](#automated-checks-user-admin)
+    - [Decoder - User fristigod](#decoder-user-fristigod)
 
 ## Information Gathering
 
@@ -206,7 +207,7 @@ Existe outros usuários, vamos verificar mais de perto.
 
 ![users](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/fristileaks-1-3/2019-05-18_13-22.png)
 
-### Automated Checks
+### Automated Checks - User admin
 
 Dentro do `/home/eezeepz` encontramos umas anotações.
 
@@ -237,6 +238,8 @@ Bom, de acordo com as anotações podemos utilizar os comandos disponíveis no `
 ![perm](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/fristileaks-1-3/2019-05-18_13-42.png)
 
 Veja, depois de alguns minutos as permissões foram alteradas, permitindo qualquer pessoa acessar o `/home/admin`.
+
+### Decoder - User fristigod
 
 Depois de acessar o admin encontramos um arquivo com o texto criptografado.
 
