@@ -226,3 +226,11 @@ Deveria executar cada minuto com privilégios de minha conta.
 
 - Jerry
 ```
+
+Bom, de acordo com as anotações podemos utilizar os comandos disponíveis no `/home/admin`, sendo assim utilizando o `chmod`  podemos dar permissão total para qualquer pessoa acessar o home do admin.
+
+`echo "/home/admin/chmod -R 777 /home/admin/" > /tmp/runthis`
+
+![perm](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/fristileaks-1-3/2019-05-18_13-42.png)
+
+Veja, depois de alguns minutos as permissões foram alteradas, permitindo qualquer pessoa acessar o `/home/admin`.
