@@ -26,6 +26,7 @@ Uma pequena VM foi feita para um encontro de hackers informais holandeses chamad
 - [Web Application Analysis](#web-application-analysis)
     - [Nikto](#nikto)
     - [Web Crawlers & Directory Bruteforce](#web-crawlers-&-directory-bruteforce)
+        - [CeWL](#cewl)
         - [Dirsearch](#dirsearch)
 
 ## Information Gathering
@@ -60,4 +61,14 @@ Como podemos observar a porta `80` esta aberta e possui o serviço `http`, com  
 
 ### Web Crawlers & Directory Bruteforce
 
+#### CeWL
+
+Inicialmente eu tentei diversas wordlists e não encontrava nada, voltei ao tempo e criei uma `wordlist` personalizada com o `CeWL` e assim tentei encontrar algo interessante.
+
+`cewl -w customwordlist.txt -d 2 -m 4 10.0.1.110 -o -v`
+
 #### Dirsearch
+
+`python3 /opt/dirsearch/dirsearch.py -u http://10.0.1.110/ -w customwordlist.txt -e php -x 403`
+
+![dirsearch1](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/fristileaks-1-3/2019-05-18_10-39.png)
