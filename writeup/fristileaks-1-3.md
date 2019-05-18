@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# HackInOS: 1
+# FristiLeaks: 1.3
 
 [Download:](https://www.vulnhub.com/entry/fristileaks-13,133/)
 
