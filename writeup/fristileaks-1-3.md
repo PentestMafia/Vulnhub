@@ -154,6 +154,7 @@ bash-4.1$ ^Z
 [1]+  Stopped                 nc -lvp 6464
 ```
 `stty -echo raw`
+
 `$ fg`
 
 ![stty](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/fristileaks-1-3/2019-05-18_12-37.png)
