@@ -22,7 +22,7 @@ Uma pequena VM foi feita para um encontro de hackers informais holandeses chamad
 - [Information Gathering](#information-gathering)
     - [Route Analysis](#route-analysis)
         - [Netdiscover](#netdiscover)
-
+    - [nmap](#nmap)
 
 ## Information Gathering
 
@@ -35,3 +35,12 @@ Iniciamos obtendo algumas informações necessárias para podermos continuar, ou
 `netdiscover -i eth0 -r 10.0.1.0/24`
 
 ![netdiscover1](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/fristileaks-1-3/2019-05-18_09-05.png)
+
+### Nmap
+
+Depois de obter nosso alvo, podemos usar o `nmap` e iniciar a enumeração e assim pegar mais informações. Por exemplo: Portas abertas, versões de serviços e etc.
+
+`nmap -sV -sC -oN nmap/initial 10.0.1.110`
+
+![nmap1](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/fristileaks-1-3/2019-05-18_09-35.png)
+
