@@ -39,7 +39,7 @@ Uma pequena VM foi feita para um encontro de hackers informais holandeses chamad
     - [LinEnum](#linenum)
     - [Automated Checks - User admin](#automated-checks---user-admin)
     - [Decoder - User fristigod](#decoder---user-fristigod)
-    - [Sudo](#sudo)
+    - [Sudo - Get root](#sudo---get-root)
 
 ## Information Gathering
 
@@ -266,7 +266,7 @@ Sabemos que existe 3 users, temos acesso ao `admin` e `eezeepz` ainda falta o `f
 
 ![fristgod](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/fristileaks-1-3/2019-05-18_16-40.png)
 
-### Sudo
+### Sudo - Get root
 
 Como de costume, apos realizar a enumeração básica e verificar o `sudo -l` podemos ver que existe um programa que executa com permissão de root com o usuario `fristi` setado, vamos analisar mais de perto e ver como podemos escalar o privilegio com ele.
 
