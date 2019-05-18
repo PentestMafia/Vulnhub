@@ -170,7 +170,7 @@ Poderíamos partir logo para kernel explotation, mas antes vamos rodar o Linenum
 
 `locate LinEnum`
 
-Se você não tem o LinEnum em sua máquina, você pode realizar o download. ![AQUI](https://github.com/PentestMafia/LinEnum)
+Se você não tem o LinEnum em sua máquina, você pode realizar o download. [AQUI](https://github.com/PentestMafia/LinEnum)
 
 `cp /root/fatec/172.17.0.2/download/LinEnum.sh /var/www/html/`
 
