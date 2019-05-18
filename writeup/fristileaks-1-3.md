@@ -200,3 +200,11 @@ Possíveis vetores de ataques.
 `kernel - Linux version 2.6.32-573.8.1.el6.x86_64`
 
 ![kernel](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/fristileaks-1-3/2019-05-18_13-20.png)
+
+Existe outros usuários, vamos verificar mais de perto.
+
+![users](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/fristileaks-1-3/2019-05-18_13-22.png)
+
+Dentro do `/home/eezeepz` encontramos umas anotações.
+
+![notes](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/fristileaks-1-3/2019-05-18_13-14.png)
