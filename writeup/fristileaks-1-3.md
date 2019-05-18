@@ -30,6 +30,8 @@ Uma pequena VM foi feita para um encontro de hackers informais holandeses chamad
 
 #### Netdiscover
 
+Iniciamos obtendo algumas informações necessárias para podermos continuar, ou seja, precisamos fazer o levantamento de informações. Como não foi passado nosso `target`, precisamos descobrir qual `IP` esta associado a máquina vuln.
+
 `netdiscover -i eth0 -r 10.0.1.0/24`
 
 ![netdiscover1](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/fristileaks-1-3/2019-05-18_09-05.png)
