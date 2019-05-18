@@ -278,4 +278,4 @@ Como de costume, apos realizar a enumeração básica e verificar o `sudo -l` po
 
 GG!!! hello hello how low......
 
-
+Obtemos o root com sucesso!
