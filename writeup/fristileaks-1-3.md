@@ -238,11 +238,15 @@ Bom, de acordo com as anotações podemos utilizar os comandos disponíveis no `
 
 Veja, depois de alguns minutos as permissões foram alteradas, permitindo qualquer pessoa acessar o `/home/admin`.
 
-Depois de acessar o admin encontramos um arquivo com o texto criptografado, precisamos decodar.
+Depois de acessar o admin encontramos um arquivo com o texto criptografado.
 
 ![encode](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/fristileaks-1-3/2019-05-18_16-13.png)
 
-Depois de programar o decode, podemos decodar o texto e ter acesso a uma senha.
+Também podemos ver o encode.
+
+![cryp](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/fristileaks-1-3/2019-05-18_16-33.png)
+
+Depois de olhar o encode, podemos programar o decoder e assim podemos obter o texto legível.
 
 ![decode](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/fristileaks-1-3/2019-05-18_16-17.png)
 
