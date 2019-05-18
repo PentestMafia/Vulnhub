@@ -246,4 +246,6 @@ Depois de programar o decode, podemos decodar o texto e ter acesso a uma senha.
 
 ![decode](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/fristileaks-1-3/2019-05-18_16-17.png)
 
-!
+lol, temos o texto legível!!
+
+![password](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/fristileaks-1-3/2019-05-18_16-27.png)
