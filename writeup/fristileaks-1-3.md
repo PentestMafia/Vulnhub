@@ -238,7 +238,7 @@ Bom, de acordo com as anotações podemos utilizar os comandos disponíveis no `
 
 Veja, depois de alguns minutos as permissões foram alteradas, permitindo qualquer pessoa acessar o `/home/admin`.
 
-Depois de acessar o admin encontramos um arquivo criptografado, precisamos decodar.
+Depois de acessar o admin encontramos um arquivo com o texto criptografado, precisamos decodar.
 
 ![encode](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/fristileaks-1-3/2019-05-18_16-13.png)
 
