@@ -57,7 +57,7 @@ Iniciamos obtendo algumas informações necessárias para podermos continuar, ou
 
 Depois de obter nosso alvo, podemos usar o `nmap` e iniciar a enumeração e assim pegar mais informações. Por exemplo: Portas abertas, versões de serviços e etc.
 
-`nmap -sV -sC -oN nmap/initial 10.0.1.110`
+`nmap -sV -sC -oA nmap/initial 10.0.1.110`
 
 ![nmap1](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/fristileaks-1-3/2019-05-18_09-35.png)
 
