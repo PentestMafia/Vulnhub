@@ -88,3 +88,5 @@ Então pegamos o comentário do source, e inserimos em um arquivo. No meu caso c
 ![decoder1](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/fristileaks-1-3/2019-05-18_10-58.png)
 
 Observe no início do arquivo que tem escrito `PNG`. Bom, vamos decodar novamente mas agora redirecionando a saída para um arquivo no formato `.png`
+
+`cat source.b64 |base64 -d > file_source.png`
