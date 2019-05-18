@@ -58,8 +58,6 @@ Como podemos observar a porta `80` esta aberta e possui o serviço `http`, com  
 
 ![nikto1](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/fristileaks-1-3/2019-05-18_09-52.png)
 
-Vamos analisar o robots.txt mais de perto.
-
 ### Web Crawlers & Directory Bruteforce
 
 #### Dirsearch
