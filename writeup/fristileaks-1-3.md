@@ -35,6 +35,7 @@ Uma pequena VM foi feita para um encontro de hackers informais holandeses chamad
 - [Post Exploitation](#post-exploitation)
     - [Spawn Shell](#spawn-shell)
     - [Upgrading to a fully interactive reverse shell](#upgrading-to-a-fully-interactive-reverse-shell)
+    - [File Transfer](#file-transfer)
 
 ## Information Gathering
 
@@ -160,3 +161,18 @@ bash-4.1$ ^Z
 ![stty](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/fristileaks-1-3/2019-05-18_12-37.png)
 
 Com uma shell interativa completa fica bem mais fácil de trabalhar, você pode usar o `TAB`, pode usar o `Ctrl + C` e você não perde sua shell.
+
+### File Transfer
+
+Poderíamos partir logo para kernel explotation, mas antes vamos rodar o Linenum, mas precisamos antes transferir para nosso alvo.
+
+`systemctl start apache2`
+
+`locate LinEnum`
+
+Se você não tem o LinEnum em sua máquina, você pode realizar o download. ![AQUI](https://github.com/PentestMafia/LinEnum)
+
+`cp /root/fatec/172.17.0.2/download/LinEnum.sh /var/www/html/`
+
+
+![trasnfer](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/fristileaks-1-3/2019-05-18_12-50.png)
