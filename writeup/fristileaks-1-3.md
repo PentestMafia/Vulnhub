@@ -253,3 +253,11 @@ Depois de olhar o encode, podemos programar o decoder e assim obter o texto leg�
 lol, temos o texto legível!!
 
 ![password](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/fristileaks-1-3/2019-05-18_16-27.png)
+
+Sabemos que existe 3 users, temos acesso ao `admin` e `eezeepz` ainda falta o `fristigod`. Podemos ver em nosso home para você lembrar, depois vamos mudar de usuário utilizando a senha que conseguimos decodar, ou seja, vamos atras do `fristigod`.
+
+`fristigod:LetThereBeFristi!`
+
+`su fristigod`
+
+![fristgod](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/fristileaks-1-3/2019-05-18_16-40.png)
