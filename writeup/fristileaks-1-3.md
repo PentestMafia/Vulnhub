@@ -272,7 +272,7 @@ Como de costume, apos realizar a enumeração básica e verificar o `sudo -l` po
 
 ![sudo](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/fristileaks-1-3/2019-05-18_16-55.png)
 
-`sudo -u fristi /var/fristigod/.secret_admin_stuff/doCom`
+`sudo -u fristi /var/fristigod/.secret_admin_stuff/doCom /bin/bash`
 
 ![root](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/fristileaks-1-3/2019-05-18_17-03.png)
 
