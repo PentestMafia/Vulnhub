@@ -32,7 +32,7 @@ Uma pequena VM foi feita para um encontro de hackers informais holandeses chamad
     - [Base64](#base64)
     - [Bypass](#bypass)
     - [Reverse Shell](#reverse-shell)
-- [Post Exploitation](#post-exploitation)
+- [Privilege Escalation](#privilege-escalation)
     - [Spawn Shell](#spawn-shell)
     - [Upgrading to a fully interactive reverse shell](#upgrading-to-a-fully-interactive-reverse-shell)
     - [File Transfer](#file-transfer)
@@ -140,7 +140,7 @@ Acesse o arquivo e obtenha uma `revshell`.
 
 ![shell](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/fristileaks-1-3/2019-05-18_12-26.png)
 
-## Post Exploitation
+## Privilege Escalation
 
 ### Spawn Shell
 
