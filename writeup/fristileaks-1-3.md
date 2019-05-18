@@ -246,7 +246,7 @@ Também podemos ver o encode.
 
 ![cryp](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/fristileaks-1-3/2019-05-18_16-33.png)
 
-Depois de olhar o encode, podemos programar o decoder e assim podemos obter o texto legível.
+Depois de olhar o encode, podemos programar o decoder e assim obter o texto legível.
 
 ![decode](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/fristileaks-1-3/2019-05-18_16-17.png)
 
