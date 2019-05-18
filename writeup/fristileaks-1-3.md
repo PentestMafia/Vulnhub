@@ -24,6 +24,9 @@ Uma pequena VM foi feita para um encontro de hackers informais holandeses chamad
         - [Netdiscover](#netdiscover)
     - [Nmap](#nmap)
 - [Web Application Analysis](#web-application-analysis)
+    - [Nikto](#nikto)
+    - [Web Crawlers & Directory Bruteforce](#web-crawlers-&-directory-bruteforce)
+        - [Dirsearch](#dirsearch)
 
 ## Information Gathering
 
@@ -49,3 +52,14 @@ Como podemos observar a porta `80` esta aberta e possui o serviço `http`, com  
 
 ## Web Application Analysis
 
+### Nikto
+
+`nikto -C all -host 10.0.1.110 -output nikto_init_port_80.txt`
+
+![nikto1](https://raw.githubusercontent.com/PentestMafia/Vulnhub/master/assets/images/fristileaks-1-3/2019-05-18_09-52.png)
+
+Vamos analisar o robots.txt mais de perto.
+
+### Web Crawlers & Directory Bruteforce
+
+#### Dirsearch
